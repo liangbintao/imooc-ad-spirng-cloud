@@ -69,8 +69,7 @@ public class AdUnitServiceImpl implements IAdUnitService {
     }
 
     @Override
-    public AdUnitKeywordResponse createUnitKeyword(AdUnitKeywordRequest request)
-            throws AdException {
+    public AdUnitKeywordResponse createUnitKeyword(AdUnitKeywordRequest request) throws AdException {
 
         List<Long> unitIds = request.getUnitKeywords().stream()
                 .map(AdUnitKeywordRequest.UnitKeyword::getUnitId)
@@ -96,8 +95,7 @@ public class AdUnitServiceImpl implements IAdUnitService {
     }
 
     @Override
-    public AdUnitItResponse createUnitIt(AdUnitItRequest request)
-            throws AdException {
+    public AdUnitItResponse createUnitIt(AdUnitItRequest request) throws AdException {
 
         List<Long> unitIds = request.getUnitIts().stream()
                 .map(AdUnitItRequest.UnitIt::getUnitId)
@@ -122,8 +120,7 @@ public class AdUnitServiceImpl implements IAdUnitService {
     }
 
     @Override
-    public AdUnitDistrictResponse createUnitDistrict(AdUnitDistrictRequest request)
-            throws AdException {
+    public AdUnitDistrictResponse createUnitDistrict(AdUnitDistrictRequest request) throws AdException {
 
         List<Long> unitIds = request.getUnitDistricts().stream()
                 .map(AdUnitDistrictRequest.UnitDistrict::getUnitId)
