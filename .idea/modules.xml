@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/imooc-ad-service/ad-common/ad-common.iml" filepath="$PROJECT_DIR$/imooc-ad-service/ad-common/ad-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad-eureka/ad-eureka.iml" filepath="$PROJECT_DIR$/ad-eureka/ad-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ad-gateway/ad-gateway.iml" filepath="$PROJECT_DIR$/ad-gateway/ad-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-ad-service/ad-sponsor/ad-sponsor.iml" filepath="$PROJECT_DIR$/imooc-ad-service/ad-sponsor/ad-sponsor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-ad-service/imooc-ad-service.iml" filepath="$PROJECT_DIR$/imooc-ad-service/imooc-ad-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imooc-ad-spirng-cloud.iml" filepath="$PROJECT_DIR$/imooc-ad-spirng-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javabasic/javabasic.iml" filepath="$PROJECT_DIR$/javabasic/javabasic.iml" />
+    </modules>
+  </component>
+</project>
