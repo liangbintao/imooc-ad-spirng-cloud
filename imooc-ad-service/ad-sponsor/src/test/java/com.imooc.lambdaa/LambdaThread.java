@@ -2,6 +2,7 @@ package com.imooc.lambdaa;
 
 import org.assertj.core.util.Lists;
 
+import java.io.UnsupportedEncodingException;
 import java.util.*;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
@@ -16,11 +17,19 @@ import java.util.stream.Stream;
  */
 public class LambdaThread {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws UnsupportedEncodingException {
 
-        LambdaThread lt = new LambdaThread();
+        /*LambdaThread lt = new LambdaThread();
 
-        lt.streamToFlatMap();
+        lt.streamToFlatMap();*/
+
+        String s = "中";
+
+        byte[] bytes = s.getBytes("ISO-8859-1");
+
+        String str = new String(bytes, "ISO-8859-1");
+
+        System.out.println(str);
     }
 
     public void streamToFlatMap() {
