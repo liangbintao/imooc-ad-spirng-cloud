@@ -15,19 +15,25 @@ import java.io.IOException;
  */
 public class Test {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 50; i <= 60; i++) {
 
             System.out.println("----------------------第" + i + "页---------------------------");
 
             String url = "http://www.xiachufang.com/explore/rising/?page=" + i;
 
-            reptileName(url);
+            try {
+                reptileName(url);
+            } catch (IOException e) {
+                System.err.println("请求数据错误");
+                return;
+            }
         }
     }
 
     private static void reptileName(String url) throws IOException {
+
         Document doc = Jsoup.connect(url).maxBodySize(0).get();
 
         //doc获取整个页面的所有数据
