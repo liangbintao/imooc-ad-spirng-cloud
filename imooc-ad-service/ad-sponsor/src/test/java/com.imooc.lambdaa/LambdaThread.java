@@ -23,13 +23,15 @@ public class LambdaThread {
 
         lt.streamToFlatMap();*/
 
-        String s = "中";
+        /*String s = "中";
 
         byte[] bytes = s.getBytes("ISO-8859-1");
 
         String str = new String(bytes, "ISO-8859-1");
 
-        System.out.println(str);
+        System.out.println(str);*/
+
+        Scanner scanner = new Scanner(System.in);
     }
 
     public void streamToFlatMap() {
